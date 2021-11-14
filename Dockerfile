@@ -9,4 +9,4 @@ COPY FinalProject.java /app
 RUN javac FinalProject.java
 
 #running java
-CMD ["java","Aritmatika"]
+CMD ["java","FinalProject"]
