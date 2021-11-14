@@ -6,7 +6,7 @@
 package finalproject;
 import java.io.*;
 import java.util.Scanner;
-import static javafx.application.Platform.exit;
+
 
 /**
  *
@@ -227,7 +227,6 @@ static void tambahStok(){
             System.out.print("lanjut ke menu lagi ? y/t : ");
             putar = sc.next().charAt(0);
         }
-        exit();
     }
     
 }
