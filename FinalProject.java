@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package finalproject;
+
 import java.io.*;
 import java.util.Scanner;
 
@@ -220,13 +220,11 @@ static void tambahStok(){
   
   
     public static void main(String[] args) throws IOException {
-        while (putar == 'y' || putar == 'Y') {
+
         app();
             menu();
         
-            System.out.print("lanjut ke menu lagi ? y/t : ");
-            putar = sc.next().charAt(0);
-        }
+          
     }
     
 }
